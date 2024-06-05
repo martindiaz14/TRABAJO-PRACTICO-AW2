@@ -1,49 +1,29 @@
 import { Router } from "express";
-import {readFile, writeFile} from 'fs/promises';
+import {readFile} from 'fs/promises';
 
 const fileUser = await readFile('./DATA/usuarios.json', 'utf-8')
 const UserData = JSON.parse(fileUser);
 
 const router = Router();
 
-router.post('/login'), (req, res)=>{
-const email = req.body.email;
-const pass = req.body.contraseña;
+router.post('/login', (req, res)=>{
+const email = req.body.email
+const contraseña = req.body.contraseña
 
-const login = UserData.find(e=> e.email === email && e.contraseña === pass)
-try{
-if(login){
+const result = UserData.find(e => e.email === email && e.contraseña === contraseña)
 
-    res.status(200).json(`Bienvenido al Sistema ${login.nombre + '' + login.apellido}`)
+if(result){
+    const data = {
+        name : result.nombre,
+        lastname: result.apellido,
+        status: true
+    }
+    console.log(data)
+    res.status(200).json(data)
 }else{
-
-}   res.status(400).json(`Usuario no encontrado`)
+    res.status(400).json({status:false})
 }
-catch(error){
-    res.status(500).json(`Error...`)
-}
-}
+})
 
-
-router.get('/all'),(req,res)=>{
-    if(UserData.lenght){
-        res.status(200).json(UserData)
-    }else{
-       res.status(400).json("No se encontro ninguna venta")
-    }
-
-}
-
-router.get('/id/:id'),(req, res)=>{
-    const id = parseInt(req.params.id)
-
-    const result = UserData.find(e => e.id === id)
-
-    if(result){
-        res.status(200).json(result)
-    } else{
-        res.status(400).json(`Usuario no encontrado`)
-    }
-}
 
 export default router
