@@ -2,16 +2,22 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('click', function (event) {
       if (event.target && event.target.id === 'btnDelete') {
           const productId = event.target.getAttribute('data-id');
+          const index = event.target.dataset.id;
           removeLocal(productId);
           removeUI(productId);
+          event.target.closest('.rounded-2xl').remove();
+          location.reload()
       }
   });
 });
 
-const removeLocal = (id) => {
+const removeLocal = (productId) => {
   let products = JSON.parse(localStorage.getItem('ProdList')) || [];
-  products = products.filter(product => product.id !== id);
-  localStorage.setItem('ProdList', JSON.stringify(products));
+  const index = products.findIndex(product => product.id === productId);
+  if (index !== -1) {
+      products.splice(index, 1);
+      localStorage.setItem('ProdList', JSON.stringify(products)); 
+  }
 };
 
 const removeUI = (id) => {
@@ -20,8 +26,6 @@ const removeUI = (id) => {
       productElement.remove();
   }
 };
-
-
 
 
 export const prodbag = (data)=>{
@@ -33,7 +37,7 @@ export const prodbag = (data)=>{
       <img src=${data.img} id="img2" alt="imagen.png" height="100" width="100" class="mt-8">
       <div class="w-full bg-gray-900 rounded-2xl p-1 mt-4">
         <h1 class="text-1xl m-1 font-semibold mt-2" id = "name">${data.tittle}</h1>
-        <h1 class="text-1xl m-1 font-semibold mt-2" id = "price">${data.price}</h1>
+        <div class="text-1xl m-1 font-semibold mt-2 flex space-x-4">$ <h1  id = "price">${data.price}</h1> </div>
       </div>
     </div>
 `

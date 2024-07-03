@@ -1,142 +1,142 @@
 [
-    {
-      "id": 1,
-      "nombre": "Carlos",
-      "apellido": "Figueroa",
-      "email": "usuario1@example.com",
-      "contraseña": "contraseña1"
-    },
-    {
-      "id": 2,
-      "nombre": "Miguel",
-      "apellido": "Fuentes",
-      "email": "usuario2@example.com",
-      "contraseña": "contraseña2"
-    },
-    {
-      "id": 3,
-      "nombre": "Carla",
-      "apellido": "Soria",
-      "email": "usuario3@example.com",
-      "contraseña": "contraseña3"
-    },
-    {
-      "id": 4,
-      "nombre": "Monica",
-      "apellido": "Miranda",
-      "email": "usuario4@example.com",
-      "contraseña": "contraseña4"
-    },
-    {
-      "id": 5,
-      "nombre": "Josefina",
-      "apellido": "Arias",
-      "email": "usuario5@example.com",
-      "contraseña": "contraseña5"
-    },
-    {
-      "id": 6,
-      "nombre": "Pedro",
-      "apellido": "Torres",
-      "email": "usuario6@example.com",
-      "contraseña": "contraseña6"
-    },
-    {
-      "id": 7,
-      "nombre": "Daniel",
-      "apellido": "Carvajal",
-      "email": "usuario7@example.com",
-      "contraseña": "contraseña7"
-    },
-    {
-      "id": 8,
-      "nombre": "Fausto",
-      "apellido": "Cabal",
-      "email": "usuario8@example.com",
-      "contraseña": "contraseña8"
-    },
-    {
-      "id": 9,
-      "nombre": "Adriana",
-      "apellido": "Sanchez",
-      "email": "usuario9@example.com",
-      "contraseña": "contraseña9"
-    },
-    {
-      "id": 10,
-      "nombre": "Victor",
-      "apellido": "Maxwell",
-      "email": "usuario10@example.com",
-      "contraseña": "contraseña10"
-    },
-    {
-      "id": 11,
-      "nombre": "Javier",
-      "apellido": "Cabal",
-      "email": "usuario11@example.com",
-      "contraseña": "contraseña11"
-    },
-    {
-      "id": 12,
-      "nombre": "Roberto",
-      "apellido": "Guiterrez",
-      "email": "usuario12@example.com",
-      "contraseña": "contraseña12"
-    },
-    {
-      "id": 13,
-      "nombre": "Miguel",
-      "apellido": "Fernandez",
-      "email": "usuario13@example.com",
-      "contraseña": "contraseña13"
-    },
-    {
-      "id": 14,
-      "nombre": "Leonel",
-      "apellido": "Martinez",
-      "email": "usuario14@example.com",
-      "contraseña": "contraseña14"
-    },
-    {
-      "id": 15,
-      "nombre": "Carolina",
-      "apellido": "Herrera",
-      "email": "usuario15@example.com",
-      "contraseña": "contraseña15"
-    },
-    {
-      "id": 16,
-      "nombre": "Sonia",
-      "apellido": "Diaz",
-      "email": "usuario16@example.com",
-      "contraseña": "contraseña16"
-    },
-    {
-      "id": 17,
-      "nombre": "Federico",
-      "apellido": "Rodriguez",
-      "email": "usuario17@example.com",
-      "contraseña": "contraseña17"
-    },
-    {
-      "id": 18,
-      "nombre": "Carmen",
-      "apellido": "Damian",
-      "email": "usuario18@example.com",
-      "contraseña": "contraseña18"
-    },
-    {
-      "id": 19,
-      "nombre": "Maria",
-      "apellido": "Jose",
-      "email": "usuario19@example.com",
-      "contraseña": "contraseña19"
-    },
-    {
-      "id": 20,
-      "nombre": "Martin",
-      "apellido": "Rodriguez",
-      "email": "usuario20@example.com",
-      "contraseña": "contraseña20"
-    }
-  ]
+  {
+    "id": 1,
+    "nombre": "Carlos",
+    "apellido": "Figueroa",
+    "email": "usuario1@example.com",
+    "contraseña": "$2a$08$xBMHwKo7sWNGR3EblXBABOVpFgJ7dcg9dzkfUldVbFLMwJtDvtWBG"
+  },
+  {
+    "id": 2,
+    "nombre": "Miguel",
+    "apellido": "Fuentes",
+    "email": "usuario2@example.com",
+    "contraseña": "$2a$08$lBvvqTjuzWiUEyoJGRcezO3sdFLNAi7PTebX7X7KoVCX0R3WvmEQW"
+  },
+  {
+    "id": 3,
+    "nombre": "Carla",
+    "apellido": "Soria",
+    "email": "usuario3@example.com",
+    "contraseña": "$2a$08$N9RnjqC44G6r543YftNEDetNpnHayMhRAcyoWEH2mJvkjoaFwQA9G"
+  },
+  {
+    "id": 4,
+    "nombre": "Monica",
+    "apellido": "Miranda",
+    "email": "usuario4@example.com",
+    "contraseña": "$2a$08$EboeKYEnI6v9bFqy0fN2Uu08I3BYYvjvaTQFwsuFNcwcaCx4HBUIC"
+  },
+  {
+    "id": 5,
+    "nombre": "Josefina",
+    "apellido": "Arias",
+    "email": "usuario5@example.com",
+    "contraseña": "$2a$08$e60ZvmX77.KZAuHmzdF4L.8FIVYRikSr63KSzi1VDZSNs4ooqU2im"
+  },
+  {
+    "id": 6,
+    "nombre": "Pedro",
+    "apellido": "Torres",
+    "email": "usuario6@example.com",
+    "contraseña": "$2a$08$UIUmcJ76J6VVAvbTMkFAqeRq//AIhKaNfipHkZ8Ey52DvS9kAZIPS"
+  },
+  {
+    "id": 7,
+    "nombre": "Daniel",
+    "apellido": "Carvajal",
+    "email": "usuario7@example.com",
+    "contraseña": "$2a$08$fnLTKzFICZ.tidZeKCuJfugJVzNnHR/mz5NzY.Ms/UAeWdv4PpxFu"
+  },
+  {
+    "id": 8,
+    "nombre": "Fausto",
+    "apellido": "Cabal",
+    "email": "usuario8@example.com",
+    "contraseña": "$2a$08$SBc/sRCBv5x0LjYUruX/cePI0EWm1xu5K4o2UPtJTRgMRUGfZoWY6"
+  },
+  {
+    "id": 9,
+    "nombre": "Adriana",
+    "apellido": "Sanchez",
+    "email": "usuario9@example.com",
+    "contraseña": "$2a$08$YDjBILfEVJBCiXqjLm73b.d.dxJ0F70lda.kcSufv32GIhySp.Spi"
+  },
+  {
+    "id": 10,
+    "nombre": "Victor",
+    "apellido": "Maxwell",
+    "email": "usuario10@example.com",
+    "contraseña": "$2a$08$5zBxtz1SbGZcxmSGlrlZYOAU7wgTi8chomD5K/3d6m48uLIs72JtW"
+  },
+  {
+    "id": 11,
+    "nombre": "Javier",
+    "apellido": "Cabal",
+    "email": "usuario11@example.com",
+    "contraseña": "$2a$08$B/uG8RcLBhYr1bhl.e6Du.trUbRM33mmWaKM1xEM5iYttaRtPlDYK"
+  },
+  {
+    "id": 12,
+    "nombre": "Roberto",
+    "apellido": "Guiterrez",
+    "email": "usuario12@example.com",
+    "contraseña": "$2a$08$PygyhXT3Y5GNzyRuqhfIbefVA82MaXhCQu7uzJa0SvE3A1fotLnXm"
+  },
+  {
+    "id": 13,
+    "nombre": "Miguel",
+    "apellido": "Fernandez",
+    "email": "usuario13@example.com",
+    "contraseña": "$2a$08$I4/9rB.LreUkKRXDXqPP/O66wjCF3tqavkrPcBr0Ga42uvHKe1qxO"
+  },
+  {
+    "id": 14,
+    "nombre": "Leonel",
+    "apellido": "Martinez",
+    "email": "usuario14@example.com",
+    "contraseña": "$2a$08$Gi0zUOtNErOFl1WwQKDulO.krQ81WKwUBRTx.3Z16ju4ENSEKCj.y"
+  },
+  {
+    "id": 15,
+    "nombre": "Carolina",
+    "apellido": "Herrera",
+    "email": "usuario15@example.com",
+    "contraseña": "$2a$08$9mPFQMJ1cSYgsW2LnhTfuur4fD4cbonKDbTjTvmH1IzTWsNiU3WTy"
+  },
+  {
+    "id": 16,
+    "nombre": "Sonia",
+    "apellido": "Diaz",
+    "email": "usuario16@example.com",
+    "contraseña": "$2a$08$LoGcTBzFBaJXejFdcytmf.AaqzcNWeq/rgT3SWwArKj0EHhI9rfqu"
+  },
+  {
+    "id": 17,
+    "nombre": "Federico",
+    "apellido": "Rodriguez",
+    "email": "usuario17@example.com",
+    "contraseña": "$2a$08$plevjQYc/IOyq6ZJpn2Du.wXRNfdDneuJG4/iIEl1RRyaVaJx6MCq"
+  },
+  {
+    "id": 18,
+    "nombre": "Carmen",
+    "apellido": "Damian",
+    "email": "usuario18@example.com",
+    "contraseña": "$2a$08$K1HMVJexczsnuajD/MMPfO3kptnJHqX7UIG1gWGa/Lb6JsUxG9zXW"
+  },
+  {
+    "id": 19,
+    "nombre": "Maria",
+    "apellido": "Jose",
+    "email": "usuario19@example.com",
+    "contraseña": "$2a$08$ZiCh2Ub/5gdf0kKrhItMtupjD/eUHwp17bCZjn.368NrzRO4lHMs2"
+  },
+  {
+    "id": 20,
+    "nombre": "Martin",
+    "apellido": "Rodriguez",
+    "email": "usuario20@example.com",
+    "contraseña": "$2a$08$D2/1lHeXbcXeTah7BnIkJ.6wHOyt/pJEFgZlN18J1/CBVgr1F8EtO"
+  }
+]

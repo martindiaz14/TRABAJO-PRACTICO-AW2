@@ -8,14 +8,16 @@ const saleData = JSON.parse(fileUser)
 
 
 
-router.post('/venta', (req, res) => {
-    const { user, lastname, adress, postal, phone, location, total, productos } = req.body
+router.post('/venta', async(req, res) => {
+    const { user, adress, postal, phone, location, total, buycart } = req.body
     try {
-        saleData.push({ user, lastname, adress, postal, phone, location, total, venta, productos })
+        const id = saleData.length > 0 ? Math.max(...saleData.map(sale => sale.id)) + 1 : 1;
+
+        saleData.push({ id:id ,user, adress, postal, phone, location, total, buycart })
         writeFile('./DATA/ventas.json', JSON.stringify(saleData, null, 2))
         res.status(200).json({ status: true })
     } catch (error) {
-        res.status(400).json({ status: false })
+        res.status(400).json({ status: false }, error)
     }
 })
 
