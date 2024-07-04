@@ -14,7 +14,7 @@ if (getSession('user')) {
         console.log(error)
     }
 } else {
-    window.location.href = ('../index.html')
+    window.location.href = ('../../index.html')
 }
 
 let selectedOption = '';

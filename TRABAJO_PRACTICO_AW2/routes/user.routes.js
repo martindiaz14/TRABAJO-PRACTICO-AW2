@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { readFile, writeFile } from 'fs/promises';
-import bcrypt from 'bcryptjs'
+import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv'
 
