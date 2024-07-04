@@ -1,0 +1,183 @@
+[
+    
+  {
+    "id": 1,      
+    "nombre": "Camiseta Básica", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 10.99,
+    "img": "../../imgs/130302.webp "
+  },
+    
+  {
+    "id": 2, 
+    "nombre": "Jeans Skinny", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 29.99 ,
+    "img": "../../imgs/130302.webp"
+  },
+
+
+  {
+    "id": 3, 
+    "nombre": "Zapatillas Deportivas", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Calzado", 
+    "precio": 49.99,
+    "img": "../../imgs/6000212.webp"
+  },
+
+  {
+    "id": 4, 
+    "nombre": "Bolso de Mano",
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!", 
+    "categoria": "Accesorios", 
+    "precio": 24.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 5, 
+    "nombre": "Gorra Snapback", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 15.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 6, 
+    "nombre": "Sudadera con Capucha", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 35.99,
+    "img": "../../imgs/130302.webp"
+  },
+
+  {
+    "id": 7, 
+    "nombre": "Reloj Digital",
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 59.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 8, 
+    "nombre": "Lentes de Sol", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 19.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 9, 
+    "nombre": "Mochila Escolar", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 39.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 10, 
+    "nombre": "Pantalones Cortos", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 18.99,
+    "img": "../../imgs/130302.webp"
+  },
+
+  {
+    "id": 11, 
+    "nombre": "Vestido de Verano", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 25.99,
+    "img": "../../imgs/130302.webp"
+  },
+
+  {
+    "id": 12, 
+    "nombre": "Sandalias Planas", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Calzado", 
+    "precio": 22.99,
+    "img": "../../imgs/6000212.webp"
+  
+  },
+  {
+    "id": 13, 
+    "nombre": "Chaqueta de Cuero", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 89.99,
+    "img": "../../imgs/130302.webp"
+  },
+
+  {
+    "id": 14, 
+    "nombre": "Bufanda de Lana",
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 14.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 15, 
+    "nombre": "Botas de Montaña",
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!", 
+    "categoria": "Calzado",
+    "precio": 75.99,
+    "img": "../../imgs/6000212.webp"
+  },
+
+  {
+    "id": 16, 
+    "nombre": "Falda Plisada",
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!", 
+    "categoria": "Ropa", 
+    "precio": 20.99,
+    "img": "../../imgs/130302.webp"
+  },
+
+  {
+    "id": 17, 
+    "nombre": "Guantes de Invierno", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 12.99,
+    "img": "../../imgs/7695937.webp"
+  },
+
+  {
+    "id": 18, 
+    "nombre": "Camiseta Deportiva",
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Ropa", 
+    "precio": 16.99,
+    "img": "../../imgs/130302.webp"
+  },
+
+  {
+    "id": 19, 
+    "nombre": "Zapatos de Vestir", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Calzado", 
+    "precio": 55.99,
+    "img": "../../imgs/6000212.webp"
+  },
+
+  {
+    "id": 20, 
+    "nombre": "Corbata de Seda", 
+    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
+    "categoria": "Accesorios", 
+    "precio": 17.99,
+    "img": "../../imgs/7695937.webp"
+  }
+  ]
