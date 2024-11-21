@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Profile</title>
+</head>
+
+<body class="bg-sky-900 text-gray-100">
+
+    <nav class="bg-blue-950 p-4 flex justify-between items-center fixed w-full top-0 z-50 shadow-lg">
+        <div>
+            <button class="text-2xl font-bold hover:font-semibold transition-all" id="btnTitulo">
+                Clothing Store
+            </button>
+        </div>
+        <button class="bg-gray-800 rounded-3xl px-4 py-2 border border-gray-700 hover:bg-indigo-700 transition-all"
+            id="logout">
+            Logout
+        </button>
+    </nav>
+
+ 
+    <div id="datos" class="max-w-sm mx-auto mt-24 p-6 rounded-xl font-semibold shadow-lg bg-blue-950">
+      
+    </div>
+
+
+    <div class="mt-10 p-6 bg-blue-900 border border-gray-50 rounded-lg mx-4 sm:mx-10 lg:mx-20">
+        <h1 class="text-center text-2xl font-semibold underline mb-4">History</h1>
+        <div id="histcont" class="flex flex-col gap-6">
+
+        </div>
+    </div>
+
+    <script type="module" src="./profile.js"></script>
+</body>
+
+</html>

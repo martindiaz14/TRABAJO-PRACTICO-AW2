@@ -9,74 +9,74 @@
 </head>
 
 <body class="bg-sky-900 text-gray-100">
-  <nav class="bg-blue-950 p-3 justify-between flex space-x-4 fixed w-full top-0 ">
+
+  <nav class="bg-blue-950 p-4 flex justify-between items-center fixed w-full top-0 z-50 shadow-md">
     <div>
-      <button class="flex justify-center items-center text-4xl m-1 p-1 hover:font-semibold transition-all"
-        id="btnTitulo">
-        Tienda De Ropa
+      <button class="text-2xl font-bold hover:font-semibold transition-all" id="btnTitulo">
+        Clothing Store
       </button>
     </div>
-    <div class="flex space-x-4 r-10">
-      <div class="text-sm font-semibold mt-3 flex space-x-4 text-white">
-        <div class="flex space-x-4 pl-20 ">
-          <p class="text-sm font-semibold mt-3 text-4xl" id="txtSaludo">
-            
-          </p>
-          <button class="ml-5">
-            <img src="../../imgs/1361728.png " alt="" height="50" width="50"
-              class="rounded-full hover:bg-indigo-800 transition-all">
-          </button>
-        </div>
-      </div>
+    <div class="flex items-center space-x-4">
+      <p class="text-lg font-semibold hidden md:block" id="txtSaludo"></p>
+      <button id="profile" class="rounded-full hover:bg-indigo-800 transition-all">
+        <img src="../../imgs/1361728.png" alt="Profile" class="h-10 w-10 rounded-full">
+      </button>
+    </div>
   </nav>
 
-<div class="fixed right-0 top-14" id = "buycontainer">
 
-</div>
-
+  <div class="fixed right-4 top-20" id="buycontainer"></div>
 
 
-  <div class="bg-blue-950 width-full p-10 rounded-2xl mt-28 shadow-lg flex space-x-4 justify-between">
-    <div>
-      <h1>Adress</h1>
-      <input type="text" class="bg-sky-900 rounded-2xl shadow-lg" id="adress">
-    </div>
-    <div>
-      <h1>Postal Code</h1>
-      <input type="number" class="bg-sky-900 rounded-2xl shadow-lg" id="postal">
-    </div>
-    <div>
-      <h1>Phone</h1>
-      <input type="number" class="bg-sky-900 rounded-2xl shadow-lg" id="phone">
-    </div>
-    <div>
-      <h1>Location</h1>
-      <input type="text " class="bg-sky-900 rounded-2xl shadow-lg" id="location">
+  <div class="bg-blue-950 p-6 rounded-2xl shadow-lg mt-28 mx-4 sm:mx-10 lg:mx-20 space-y-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div>
+        <h1 class="text-lg font-semibold">Address</h1>
+        <input type="text" id="adress"
+          class="w-full mt-1 bg-sky-900 rounded-2xl p-2 shadow-lg focus:ring-indigo-500 focus:border-indigo-500">
+      </div>
+      <div>
+        <h1 class="text-lg font-semibold">Postal Code</h1>
+        <input type="number" id="postal"
+          class="w-full mt-1 bg-sky-900 rounded-2xl p-2 shadow-lg focus:ring-indigo-500 focus:border-indigo-500">
+      </div>
+      <div>
+        <h1 class="text-lg font-semibold">Phone</h1>
+        <input type="number" id="phone"
+          class="w-full mt-1 bg-sky-900 rounded-2xl p-2 shadow-lg focus:ring-indigo-500 focus:border-indigo-500">
+      </div>
+      <div>
+        <h1 class="text-lg font-semibold">Location</h1>
+        <input type="text" id="location"
+          class="w-full mt-1 bg-sky-900 rounded-2xl p-2 shadow-lg focus:ring-indigo-500 focus:border-indigo-500">
+      </div>
     </div>
   </div>
 
-  <div class="relative m-2 ">
 
-    <button
-     class="btnadd bg-gray-800 rounded-3xl p-3 m-2 justify-center pl-5 pr-5 right-20 absolute hover:bg-indigo-700 p-3 transition-all" id="btnCancel">
+  <div class="flex justify-between items-center mt-8 px-4 sm:px-10 lg:px-20">
+    <button id="btnCancel"
+      class="bg-gray-800 rounded-3xl px-6 py-2 hover:bg-indigo-700 transition-all font-semibold">
       Cancel
     </button>
-    <button
-      class="btnadd bg-gray-800 rounded-3xl p-3 m-2 justify-center pl-5 pr-5 right-0 right-0 absolute hover:bg-indigo-700 p-3 transition-all" id="btnBuy">
+    <button id="btnBuy"
+      class="bg-gray-800 rounded-3xl px-6 py-2 hover:bg-indigo-700 transition-all font-semibold">
       Buy
     </button>
   </div>
-  <div class="bg-blue-950 mt-20 justify-between w-full rounded-2xl pt-10 relative pb-10" >
 
-  <div class="absolute top-4 right-10 flex space-x-4">
-    <h1 class="font-semibold">Total</h1>
-    <input type="text " class="bg-sky-900 rounded-2xl shadow-lg text-center" id ="totalinput" readonly>
-</div>
-<div class="justify-between w-full grid grid-cols-8 rounded-2xl " id="cartContainer">
-  
-</div>
 
+  <div class="bg-blue-950 p-6 mt-10 mx-4 sm:mx-10 lg:mx-20 rounded-2xl shadow-lg">
+    <div class="flex justify-end items-center space-x-3 mb-6" id = "cajatotal">
+      <h1 class="text-lg font-semibold">Total</h1>
+      <input type="text" id="totalinput"
+        class="bg-sky-900 rounded-2xl p-2 text-center shadow-lg w-28" readonly>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4" id="cartContainer">
+      
+    </div>
   </div>
+
   <script type="module" src="./cart.js"></script>
 </body>
 

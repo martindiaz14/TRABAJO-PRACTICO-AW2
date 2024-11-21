@@ -5,6 +5,10 @@ import { addSession } from "./utils/sessionStorage.js";
 const btnLogin = document.getElementById("btnLogin")
 const alertcont = document.getElementById('alertcontainer')
 
+const register = document.getElementById('btnreg').addEventListener('click',()=>{
+    window.location.href = ('./pages/register/register.html')
+})
+
 alertcont.innerHTML = alert()
 const BtnCloseAlert = document.getElementById(`btnAlert`)
 
@@ -15,11 +19,11 @@ login()
 
 const login = async() =>{
 const email = document.getElementById("txtmail").value
-const contraseña = document.getElementById("txtpass").value
+const password = document.getElementById("txtpass").value
 
 const res = await fetch(`${API}/user/login`, {
     method: 'POST',
-    body:JSON.stringify({email, contraseña}),
+    body:JSON.stringify({email, password}),
     headers:{
         'Content-Type' : 'application/json'
     }
@@ -29,14 +33,14 @@ const res = await fetch(`${API}/user/login`, {
 const user = await res.json()
 
 
-if(email != "" && contraseña != ""){
+if(email != "" && password != ""){
 
 if(user.status){
     console.log(user)
     addSession(user)
     window.location.href = ('./pages/home/home.html')
 }else{
-    handleAlert("No se encontro el usuario")
+    handleAlert("Datos Incorrectos")
 }
 
 }else{
@@ -46,6 +50,20 @@ if(user.status){
 
 
 
+
 BtnCloseAlert.addEventListener('click', ()=>{
     closeAlert()
+})
+
+
+
+const passwordField = document.getElementById('txtpass');
+const showPassword = document.getElementById('showPassword');
+
+showPassword.addEventListener('change', function () {
+    if (this.checked) {
+        passwordField.type = 'text';
+    } else {
+        passwordField.type = 'password';
+    }
 })

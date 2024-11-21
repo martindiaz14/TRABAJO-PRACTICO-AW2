@@ -1,183 +1,163 @@
 [
     
   {
-    "id": 1,      
-    "nombre": "Camiseta Básica", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 10.99,
-    "img": "../../imgs/130302.webp "
-  },
-    
-  {
-    "id": 2, 
-    "nombre": "Jeans Skinny", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 29.99 ,
+    "id": 1,
+    "name": "Camiseta Básica",
+    "desc": "Una camiseta esencial de corte clásico, confeccionada en suave algodón 100%. Perfecta para el uso diario, disponible en varios colores. Combínala fácilmente con cualquier prenda para un estilo casual y relajado.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 10.99,
     "img": "../../imgs/130302.webp"
   },
-
-
   {
-    "id": 3, 
-    "nombre": "Zapatillas Deportivas", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Calzado", 
-    "precio": 49.99,
+    "id": 2,
+    "name": "Jeans Skinny",
+    "desc": "Jeans de corte ajustado que se adaptan perfectamente a la figura. Fabricados en denim elástico para mayor comodidad, ideales para crear looks modernos y urbanos. Disponibles en varios tonos de azul.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 29.99,
+    "img": "../../imgs/130302.webp"
+  },
+  {
+    "id": 3,
+    "name": "Zapatillas Deportivas",
+    "desc": "Zapatillas ligeras y transpirables, diseñadas para ofrecer el máximo confort durante tus entrenamientos. Con suela antideslizante y soporte adicional para el arco del pie, son perfectas para correr o caminar.",
+    "category": "66bba793c7b104e80bbe13fe",
+    "price": 49.99,
     "img": "../../imgs/6000212.webp"
   },
-
   {
-    "id": 4, 
-    "nombre": "Bolso de Mano",
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!", 
-    "categoria": "Accesorios", 
-    "precio": 24.99,
+    "id": 4,
+    "name": "Bolso de Mano",
+    "desc": "Elegante bolso de mano, perfecto para llevar lo esencial. Fabricado en cuero sintético de alta calidad con un acabado suave y resistente. Ideal para el uso diario o para ocasiones especiales.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 24.99,
     "img": "../../imgs/7695937.webp"
   },
-
   {
-    "id": 5, 
-    "nombre": "Gorra Snapback", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 15.99,
+    "id": 5,
+    "name": "Gorra Snapback",
+    "desc": "Gorra de estilo urbano con diseño snapback ajustable. Confeccionada en algodón resistente y ventilada, es perfecta para protegerte del sol con estilo. Disponible en varios colores y estampados.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 15.99,
     "img": "../../imgs/7695937.webp"
   },
-
   {
-    "id": 6, 
-    "nombre": "Sudadera con Capucha", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 35.99,
+    "id": 6,
+    "name": "Sudadera con Capucha",
+    "desc": "Sudadera cómoda y cálida, perfecta para días fríos. Con capucha ajustable y bolsillo canguro, está fabricada en una mezcla suave de algodón y poliéster. Disponible en varios colores.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 35.99,
     "img": "../../imgs/130302.webp"
   },
-
   {
-    "id": 7, 
-    "nombre": "Reloj Digital",
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 59.99,
+    "id": 7,
+    "name": "Reloj Digital",
+    "desc": "Moderno reloj digital con pantalla LED, resistente al agua y con múltiples funciones como alarma, cronómetro y retroiluminación. Ideal para el uso diario y actividades deportivas.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 59.99,
     "img": "../../imgs/7695937.webp"
   },
-
   {
-    "id": 8, 
-    "nombre": "Lentes de Sol", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 19.99,
+    "id": 8,
+    "name": "Lentes de Sol",
+    "desc": "Lentes de sol polarizados con protección UV400, ideales para proteger tus ojos de los rayos del sol. Diseño moderno y ligero, perfecto para cualquier ocasión.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 19.99,
     "img": "../../imgs/7695937.webp"
   },
-
   {
-    "id": 9, 
-    "nombre": "Mochila Escolar", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 39.99,
+    "id": 9,
+    "name": "Mochila Escolar",
+    "desc": "Mochila resistente y espaciosa, ideal para la escuela o el uso diario. Con compartimentos múltiples, incluido un bolsillo acolchado para portátiles, y correas ajustables para mayor comodidad.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 39.99,
     "img": "../../imgs/7695937.webp"
   },
-
   {
-    "id": 10, 
-    "nombre": "Pantalones Cortos", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 18.99,
+    "id": 10,
+    "name": "Pantalones Cortos",
+    "desc": "Pantalones cortos de algodón ligero, perfectos para los días cálidos. Con un ajuste cómodo y bolsillos laterales, son ideales para actividades al aire libre o para un estilo casual.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 18.99,
     "img": "../../imgs/130302.webp"
   },
-
   {
-    "id": 11, 
-    "nombre": "Vestido de Verano", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 25.99,
+    "id": 11,
+    "name": "Vestido de Verano",
+    "desc": "Vestido ligero y fluido, perfecto para los días soleados. Confeccionado en tela suave y transpirable, presenta un diseño femenino y fresco que es ideal para cualquier ocasión veraniega.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 25.99,
     "img": "../../imgs/130302.webp"
   },
-
   {
-    "id": 12, 
-    "nombre": "Sandalias Planas", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Calzado", 
-    "precio": 22.99,
-    "img": "../../imgs/6000212.webp"
-  
-  },
-  {
-    "id": 13, 
-    "nombre": "Chaqueta de Cuero", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 89.99,
-    "img": "../../imgs/130302.webp"
-  },
-
-  {
-    "id": 14, 
-    "nombre": "Bufanda de Lana",
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 14.99,
-    "img": "../../imgs/7695937.webp"
-  },
-
-  {
-    "id": 15, 
-    "nombre": "Botas de Montaña",
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!", 
-    "categoria": "Calzado",
-    "precio": 75.99,
+    "id": 12,
+    "name": "Sandalias Planas",
+    "desc": "Sandalias cómodas y elegantes, ideales para el uso diario en climas cálidos. Con suela acolchada y correas ajustables, combinan estilo y confort en un solo calzad.",
+    "category": "66bba793c7b104e80bbe13fe",
+    "price": 22.99,
     "img": "../../imgs/6000212.webp"
   },
-
   {
-    "id": 16, 
-    "nombre": "Falda Plisada",
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!", 
-    "categoria": "Ropa", 
-    "precio": 20.99,
+    "id": 13,
+    "name": "Chaqueta de Cuero",
+    "desc": "Chaqueta de cuero sintético de alta calidad, con un diseño clásico y moderno. Perfecta para añadir un toque de estilo a cualquier conjunto, ideal para las noches frescas.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 89.99,
     "img": "../../imgs/130302.webp"
   },
-
   {
-    "id": 17, 
-    "nombre": "Guantes de Invierno", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 12.99,
+    "id": 14,
+    "name": "Bufanda de Lana",
+    "desc": "Bufanda suave y cálida, confeccionada en lana de alta calidad. Perfecta para mantenerte abrigado en los días fríos, con un diseño clásico que combina con cualquier atuendo.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 14.99,
     "img": "../../imgs/7695937.webp"
   },
-
   {
-    "id": 18, 
-    "nombre": "Camiseta Deportiva",
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Ropa", 
-    "precio": 16.99,
-    "img": "../../imgs/130302.webp"
-  },
-
-  {
-    "id": 19, 
-    "nombre": "Zapatos de Vestir", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Calzado", 
-    "precio": 55.99,
+    "id": 15,
+    "name": "Botas de Montaña",
+    "desc": "Botas resistentes y duraderas, diseñadas para ofrecer soporte y comodidad en terrenos difíciles. Impermeables y con suela antideslizante, son perfectas para senderismo y actividades al aire libre.",
+    "category": "66bba793c7b104e80bbe13fe",
+    "price": 75.99,
     "img": "../../imgs/6000212.webp"
   },
-
   {
-    "id": 20, 
-    "nombre": "Corbata de Seda", 
-    "desc" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident dicta dolores sequi atque quaerat facilis aut quod eius neque. Id, rem vitae? Molestiae fuga deleniti dolores qui illum! Cupiditate, ducimus!",
-    "categoria": "Accesorios", 
-    "precio": 17.99,
+    "id": 16,
+    "name": "Falda Plisada",
+    "desc": "Falda de estilo plisado, confeccionada en tejido ligero y fluido. Con un diseño clásico y versátil, es perfecta para combinar con blusas y camisetas, ideal para cualquier ocasión.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 20.99,
+    "img": "../../imgs/130302.webp"
+  },
+  {
+    "id": 17,
+    "name": "Guantes de Invierno",
+    "desc": "Guantes térmicos y suaves, ideales para mantener tus manos cálidas en los días fríos. Con un diseño ajustado y cómodo, son perfectos para el uso diario durante el invierno.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 12.99,
+    "img": "../../imgs/7695937.webp"
+  },
+  {
+    "id": 18,
+    "name": "Camiseta Deportiva",
+    "desc": "Camiseta técnica de alta transpirabilidad, ideal para entrenamientos y actividades físicas. Confeccionada en tejido de secado rápido, ofrece comodidad y libertad de movimiento.",
+    "category": "66bba783c7b104e80bbe13f9",
+    "price": 16.99,
+    "img": "../../imgs/130302.webp"
+  },
+  {
+    "id": 19,
+    "name": "Zapatos de Vestir",
+    "desc": "Zapatos elegantes de cuero, perfectos para ocasiones formales. Con un diseño clásico y cómodo, son ideales para combinar con trajes o conjuntos de oficina.",
+    "category": "66bba793c7b104e80bbe13fe",
+    "price": 55.99,
+    "img": "../../imgs/6000212.webp"
+  },
+  {
+    "id": 20,
+    "name": "Corbata de Seda",
+    "desc": "Corbata de seda suave y elegante, ideal para añadir un toque de sofisticación a cualquier conjunto. Disponible en varios colores y patrones, perfecta para ocasiones especiales.",
+    "category": "66bba7a9c7b104e80bbe1400",
+    "price": 17.99,
     "img": "../../imgs/7695937.webp"
   }
   ]

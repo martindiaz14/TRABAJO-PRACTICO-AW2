@@ -83,34 +83,37 @@ btnbuy.addEventListener("click", async (e) => {
                 const user = getSession('user')
 
                 const NewSaleObj = {
-                    user: user.name + ' ' +user.lastname,
+                    email: user.email,
+                    user:user.name + " "  + user.lastname,
                     adress,
                     postal,
                     phone,
                     location,
                     total,
-                    buycart: prods.map(prod => ({
-                        price: prod.price,
-                        tittle: prod.tittle
+                    cart: prods.map(product => ({
+                        product:product.id,
+                        img:product.img,
+                        name:product.name,
+                        price:product.price
                     }))
                 }
                 const res = await NewSale(NewSaleObj)
-
+                if (res.status) {
+                    handleAlert(`¡Compra realizada!\n
+                    Direccion: ${adress}\n
+                    Codigo Postal: ${postal}\n
+                    Telefono: ${phone}\n
+                    Localidad: ${location}`)
+                }
+                else {
+                    handleAlert("La compra no se  pudo realizar")
+                }
                 document.getElementById("adress").value = "";
                 document.getElementById("postal").value = "";
                 document.getElementById("phone").value = "";
                 document.getElementById("location").value = "";
                 deletedata('ProdList');
-                if (res.status) {
-                    handleAlert(`¡Compra realizada!\u000A
-                        Direccion: ${adress}\u000A
-                        Codigo Postal: ${postal}\u000A
-                        Telefono: ${phone}\u000A
-                        Localidad: ${location}`);
-                }
-                else {
-                    handleAlert("La compra no se  pudo realizar")
-                }
+                location.reload()
             }
         }
     } catch (error) {
@@ -130,7 +133,7 @@ btncancel.addEventListener("click", () => {
         document.getElementById("phone").value = "";
         document.getElementById("location").value = "";
         deletedata('ProdList');
-        
+        location.reload();
         handleAlert("Compra Cancelada");
     } catch (error) {
         console.log(error);
@@ -138,3 +141,6 @@ btncancel.addEventListener("click", () => {
 })
 
 
+document.getElementById("profile").addEventListener('click', ()=>{
+    window.location.href = "../profile/profile.html"
+    })

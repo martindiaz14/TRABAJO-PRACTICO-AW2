@@ -20,9 +20,9 @@ return prod
     }
 }
 
-export const addcategory = async(categoria)=>{
+export const addcategory = async(category)=>{
     try{
-    const res = await fetch(`${API}/prod/all/${categoria}`,{
+    const res = await fetch(`${API}/prod/all/${category}`,{
     method: 'GET',
     headers: {
         'Content-Type' : 'application/json',

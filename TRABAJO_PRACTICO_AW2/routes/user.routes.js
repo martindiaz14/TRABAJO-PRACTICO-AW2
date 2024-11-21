@@ -1,9 +1,9 @@
 import { Router } from "express";
 import { readFile, writeFile } from 'fs/promises';
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import dotenv from 'dotenv'
-
+import { createUser, findUser} from "../db/actions/users.actions.js";
 
 dotenv.config()
 
@@ -16,42 +16,42 @@ const SECRET = process.env.SECRET
 
 router.post('/login', async(req, res) => {
     const email = req.body.email
-    const contraseña = req.body.contraseña
+    const password = req.body.password
 
-    const result = UserData.find(e => e.email === email)
+    const result = await findUser(email)
 
     if (!result) {
         return res.status(404).json({ status: false })
     }
-    const control = bcrypt.compareSync(contraseña, result.contraseña)
+    const control = bcrypt.compareSync(password, result.password)
     
     if (!control) {
         return res.status(401).json({ status: false })
     }
+
+
     const token = jwt.sign({ ...result }, SECRET, { expiresIn: 86400 })
 
     const data = {
-        name: result.nombre,
-        lastname: result.apellido,
-        status: true
+        name: result.name,
+        lastname: result.lastname,
+        email:result.email,
+        status: true,
+        token:token
     }
-    console.log(token)
+    console.log(data)
     res.status(200).json(data)
 
 })
 
 
 router.post('/create', async(req,res)=>{
-const {nombre,apellido,email,contraseña} = req.body
+const {name,lastname,email,password} = req.body
 
 try {
-    const cryppass = bcrypt.hashSync(contraseña, 8)
+    const cryppass = bcrypt.hashSync(password, 8)
 
-    const id = UserData.length > 0 
-    ? Math.max(...UserData.map(user => user.id)) + 1 : 1;
-
-    UserData.push({id:id,nombre,apellido,email,contraseña:cryppass})
-    writeFile('./DATA/usuarios.json', JSON.stringify(UserData, null, 2))
+    const result = await createUser({name,lastname,email,password:cryppass})
 
     res.status(200).json({status:true})
 

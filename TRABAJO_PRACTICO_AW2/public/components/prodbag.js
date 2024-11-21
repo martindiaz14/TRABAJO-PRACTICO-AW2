@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
           removeUI(productId);
           event.target.closest('.rounded-2xl').remove();
           location.reload()
+         
       }
   });
 });
@@ -36,7 +37,7 @@ export const prodbag = (data)=>{
       </button>
       <img src=${data.img} id="img2" alt="imagen.png" height="100" width="100" class="mt-8">
       <div class="w-full bg-gray-900 rounded-2xl p-1 mt-4">
-        <h1 class="text-1xl m-1 font-semibold mt-2" id = "name">${data.tittle}</h1>
+        <h1 class="text-1xl m-1 font-semibold mt-2" id = "name">${data.name}</h1>
         <div class="text-1xl m-1 font-semibold mt-2 flex space-x-4">$ <h1  id = "price">${data.price}</h1> </div>
       </div>
     </div>

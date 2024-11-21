@@ -16,17 +16,17 @@ if (getSession('user')) {
 } else {
     window.location.href = ('../../index.html')
 }
-
+ 
 let selectedOption = '';
 
 document.addEventListener('DOMContentLoaded', async () => {
     const buttons = document.querySelectorAll('#menu-item');
     buttons.forEach(button => {
         button.addEventListener('click', async (event) => {
-            var content = document.getElementById('menu');
+
             selectedOption = event.target.name;
             await renderprod();
-            content.classList.add('hidden');
+
         });
     });
 
@@ -57,13 +57,13 @@ container.addEventListener('click', (e) => {
         try {
             const id = target.getAttribute('data-id');
             const img = document.getElementById(`img-${id}`).src
-            const tittle = document.getElementById(`name-${id}`).textContent;
+            const name = document.getElementById(`name-${id}`).textContent;
             const price = document.getElementById(`price-${id}`).textContent;
 
             const prod = {
                 id: id,
                 img: img,
-                tittle: tittle,
+                name: name,
                 price: price,
 
             };
@@ -82,10 +82,6 @@ container.addEventListener('click', (e) => {
 
 
 
-document.getElementById('btncategory').addEventListener('click', function () {
-    var content = document.getElementById('menu');
-    content.classList.toggle('hidden');
-});
 
 document.getElementById("btnTitulo").addEventListener('click', () => {
     location.reload()
@@ -93,3 +89,18 @@ document.getElementById("btnTitulo").addEventListener('click', () => {
 document.getElementById("btnBag").addEventListener('click', () => {
     window.location.href = "../cart/cart.html"
 })
+
+document.getElementById("profile").addEventListener('click', ()=>{
+window.location.href = "../profile/profile.html"
+})
+
+
+document.getElementById('us').addEventListener('click', function () {
+    var content = document.getElementById('text');
+    content.classList.toggle('hidden');
+});
+
+document.getElementById('contact').addEventListener('click', function () {
+    var content = document.getElementById('social');
+    content.classList.toggle('hidden');
+});
