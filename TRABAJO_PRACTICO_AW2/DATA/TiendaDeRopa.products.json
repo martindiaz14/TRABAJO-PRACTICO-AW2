@@ -1,0 +1,260 @@
+[{
+  "_id": {
+    "$oid": "66bba9246ddffb72e7b89390"
+  },
+  "name": "Camiseta Básica",
+  "desc": "Una camiseta esencial de corte clásico, confeccionada en suave algodón 100%. Perfecta para el uso diario, disponible en varios colores. Combínala fácilmente con cualquier prenda para un estilo casual y relajado.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 10.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9496ddffb72e7b89395"
+  },
+  "name": "Jeans Skinny",
+  "desc": "Jeans de corte ajustado que se adaptan perfectamente a la figura. Fabricados en denim elástico para mayor comodidad, ideales para crear looks modernos y urbanos. Disponibles en varios tonos de azul.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 29.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9526ddffb72e7b89397"
+  },
+  "name": "Zapatillas Deportivas",
+  "desc": "Zapatillas ligeras y transpirables, diseñadas para ofrecer el máximo confort durante tus entrenamientos. Con suela antideslizante y soporte adicional para el arco del pie, son perfectas para correr o caminar.",
+  "category": {
+    "$oid": "66bba793c7b104e80bbe13fe"
+  },
+  "price": 49.99,
+  "img": "../../imgs/6000212.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9576ddffb72e7b89399"
+  },
+  "name": "Bolso de Mano",
+  "desc": "Elegante bolso de mano, perfecto para llevar lo esencial. Fabricado en cuero sintético de alta calidad con un acabado suave y resistente. Ideal para el uso diario o para ocasiones especiales.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 24.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba95d6ddffb72e7b8939b"
+  },
+  "name": "Gorra Snapback",
+  "desc": "Gorra de estilo urbano con diseño snapback ajustable. Confeccionada en algodón resistente y ventilada, es perfecta para protegerte del sol con estilo. Disponible en varios colores y estampados.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 15.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9636ddffb72e7b8939d"
+  },
+  "name": "Sudadera con Capucha",
+  "desc": "Sudadera cómoda y cálida, perfecta para días fríos. Con capucha ajustable y bolsillo canguro, está fabricada en una mezcla suave de algodón y poliéster. Disponible en varios colores.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 35.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9676ddffb72e7b8939f"
+  },
+  "name": "Reloj Digital",
+  "desc": "Moderno reloj digital con pantalla LED, resistente al agua y con múltiples funciones como alarma, cronómetro y retroiluminación. Ideal para el uso diario y actividades deportivas.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 59.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba96c6ddffb72e7b893a1"
+  },
+  "name": "Lentes de Sol",
+  "desc": "Lentes de sol polarizados con protección UV400, ideales para proteger tus ojos de los rayos del sol. Diseño moderno y ligero, perfecto para cualquier ocasión.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 19.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9716ddffb72e7b893a3"
+  },
+  "name": "Mochila Escolar",
+  "desc": "Mochila resistente y espaciosa, ideal para la escuela o el uso diario. Con compartimentos múltiples, incluido un bolsillo acolchado para portátiles, y correas ajustables para mayor comodidad.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 39.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9766ddffb72e7b893a5"
+  },
+  "name": "Pantalones Cortos",
+  "desc": "Pantalones cortos de algodón ligero, perfectos para los días cálidos. Con un ajuste cómodo y bolsillos laterales, son ideales para actividades al aire libre o para un estilo casual.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 18.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba97a6ddffb72e7b893a7"
+  },
+  "name": "Vestido de Verano",
+  "desc": "Vestido ligero y fluido, perfecto para los días soleados. Confeccionado en tela suave y transpirable, presenta un diseño femenino y fresco que es ideal para cualquier ocasión veraniega.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 25.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba97f6ddffb72e7b893a9"
+  },
+  "name": "Sandalias Planas",
+  "desc": "Sandalias cómodas y elegantes, ideales para el uso diario en climas cálidos. Con suela acolchada y correas ajustables, combinan estilo y confort en un solo calzad.",
+  "category": {
+    "$oid": "66bba793c7b104e80bbe13fe"
+  },
+  "price": 22.99,
+  "img": "../../imgs/6000212.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9866ddffb72e7b893ab"
+  },
+  "name": "Chaqueta de Cuero",
+  "desc": "Chaqueta de cuero sintético de alta calidad, con un diseño clásico y moderno. Perfecta para añadir un toque de estilo a cualquier conjunto, ideal para las noches frescas.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 89.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba98d6ddffb72e7b893ad"
+  },
+  "name": "Bufanda de Lana",
+  "desc": "Bufanda suave y cálida, confeccionada en lana de alta calidad. Perfecta para mantenerte abrigado en los días fríos, con un diseño clásico que combina con cualquier atuendo.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 14.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9926ddffb72e7b893af"
+  },
+  "name": "Botas de Montaña",
+  "desc": "Botas resistentes y duraderas, diseñadas para ofrecer soporte y comodidad en terrenos difíciles. Impermeables y con suela antideslizante, son perfectas para senderismo y actividades al aire libre.",
+  "category": {
+    "$oid": "66bba793c7b104e80bbe13fe"
+  },
+  "price": 75.99,
+  "img": "../../imgs/6000212.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9966ddffb72e7b893b1"
+  },
+  "name": "Falda Plisada",
+  "desc": "Falda de estilo plisado, confeccionada en tejido ligero y fluido. Con un diseño clásico y versátil, es perfecta para combinar con blusas y camisetas, ideal para cualquier ocasión.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 20.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba99a6ddffb72e7b893b3"
+  },
+  "name": "Guantes de Invierno",
+  "desc": "Guantes térmicos y suaves, ideales para mantener tus manos cálidas en los días fríos. Con un diseño ajustado y cómodo, son perfectos para el uso diario durante el invierno.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 12.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba99f6ddffb72e7b893b5"
+  },
+  "name": "Camiseta Deportiva",
+  "desc": "Camiseta técnica de alta transpirabilidad, ideal para entrenamientos y actividades físicas. Confeccionada en tejido de secado rápido, ofrece comodidad y libertad de movimiento.",
+  "category": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "price": 16.99,
+  "img": "../../imgs/130302.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9a36ddffb72e7b893b7"
+  },
+  "name": "Zapatos de Vestir",
+  "desc": "Zapatos elegantes de cuero, perfectos para ocasiones formales. Con un diseño clásico y cómodo, son ideales para combinar con trajes o conjuntos de oficina.",
+  "category": {
+    "$oid": "66bba793c7b104e80bbe13fe"
+  },
+  "price": 55.99,
+  "img": "../../imgs/6000212.webp",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba9a96ddffb72e7b893b9"
+  },
+  "name": "Corbata de Seda",
+  "desc": "Corbata de seda suave y elegante, ideal para añadir un toque de sofisticación a cualquier conjunto. Disponible en varios colores y patrones, perfecta para ocasiones especiales.",
+  "category": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "price": 17.99,
+  "img": "../../imgs/7695937.webp",
+  "__v": 0
+}]

@@ -1,0 +1,520 @@
+[{
+  "_id": {
+    "$oid": "66c3bd1cf358bc4383bc9be3"
+  },
+  "email": "usuario1@example.com",
+  "user": "Carlos Figueroa",
+  "adress": "Av. Pueyrredon",
+  "postal": 2232,
+  "phone": 5232134,
+  "location": "Bs As",
+  "total": 221.93,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9496ddffb72e7b89395"
+      },
+      "name": "Jeans Skinny",
+      "price": 29.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9716ddffb72e7b893a3"
+      },
+      "name": "Mochila Escolar",
+      "price": 39.99
+    },
+    {
+      "product": {
+        "$oid": "66bba96c6ddffb72e7b893a1"
+      },
+      "name": "Lentes de Sol",
+      "price": 19.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9676ddffb72e7b8939f"
+      },
+      "name": "Reloj Digital",
+      "price": 59.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9636ddffb72e7b8939d"
+      },
+      "name": "Sudadera con Capucha",
+      "price": 35.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9766ddffb72e7b893a5"
+      },
+      "name": "Pantalones Cortos",
+      "price": 18.99
+    },
+    {
+      "product": {
+        "$oid": "66bba99f6ddffb72e7b893b5"
+      },
+      "name": "Camiseta Deportiva",
+      "price": 16.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-19T21:46:04.136Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-19T21:46:04.136Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c3be7b7ffb36d932f42569"
+  },
+  "email": "usuario1@example.com",
+  "user": "Carlos Figueroa",
+  "adress": "Calle 20 N°523",
+  "postal": 2313,
+  "phone": 633453123,
+  "location": "Bs As",
+  "total": 67.97,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba97f6ddffb72e7b893a9"
+      },
+      "name": "Sandalias Planas",
+      "price": 22.99
+    },
+    {
+      "product": {
+        "$oid": "66bba97a6ddffb72e7b893a7"
+      },
+      "name": "Vestido de Verano",
+      "price": 25.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9766ddffb72e7b893a5"
+      },
+      "name": "Pantalones Cortos",
+      "price": 18.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-19T21:51:56.010Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-19T21:51:56.010Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66c3bf6d68446b15a315278b"
+  },
+  "email": "usuario1@example.com",
+  "user": "Carlos Figueroa",
+  "adress": "Av. Pueyrredon",
+  "postal": 4242,
+  "phone": 76234242,
+  "location": "Bs As",
+  "total": 99.98,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9676ddffb72e7b8939f"
+      },
+      "name": "Reloj Digital",
+      "price": 59.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9716ddffb72e7b893a3"
+      },
+      "name": "Mochila Escolar",
+      "price": 39.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-08-19T21:55:57.208Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-19T21:55:57.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e41d1783dd79f23ef2992"
+  },
+  "email": "usuario3@example.com",
+  "user": "Carla Soria",
+  "adress": "Av. Sarmiento",
+  "postal": 2341,
+  "phone": 234423123,
+  "location": "Buenos Aires, La Plata",
+  "total": 185.95,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9526ddffb72e7b89397"
+      },
+      "name": "Zapatillas Deportivas",
+      "price": 49.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9576ddffb72e7b89399"
+      },
+      "name": "Bolso de Mano",
+      "price": 24.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9636ddffb72e7b8939d"
+      },
+      "name": "Sudadera con Capucha",
+      "price": 35.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9526ddffb72e7b89397"
+      },
+      "name": "Zapatillas Deportivas",
+      "price": 49.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9576ddffb72e7b89399"
+      },
+      "name": "Bolso de Mano",
+      "price": 24.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-20T20:08:49.336Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T20:08:49.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e55aad9df11f21f4fb92d"
+  },
+  "email": "usuario3@example.com",
+  "user": "Carla Soria",
+  "adress": "Av. Pueyrredon",
+  "postal": 2313,
+  "phone": 414213121,
+  "location": "San Luis Capital",
+  "total": 29.99,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9496ddffb72e7b89395"
+      },
+      "name": "Jeans Skinny",
+      "price": 29.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-20T21:33:30.889Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T21:33:30.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e5610c76c5fe05f06be44"
+  },
+  "email": "usuario3@example.com",
+  "user": "Carla Soria",
+  "adress": "Av. Pueyrredon",
+  "postal": 2313,
+  "phone": 424125613,
+  "location": "Buenos Aires",
+  "total": 40.98,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9576ddffb72e7b89399"
+      },
+      "name": "Bolso de Mano",
+      "price": 24.99
+    },
+    {
+      "product": {
+        "$oid": "66bba95d6ddffb72e7b8939b"
+      },
+      "name": "Gorra Snapback",
+      "price": 15.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-20T21:35:12.969Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T21:35:12.969Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e56dfaf908bfe5ce66c68"
+  },
+  "email": "usuario3@example.com",
+  "user": "Carla Soria",
+  "adress": "Av. Pueyrredon",
+  "postal": 2212,
+  "phone": 24123132,
+  "location": "Buenos Aires",
+  "total": 24.99,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9576ddffb72e7b89399"
+      },
+      "img": "http://localhost:3000/imgs/7695937.webp",
+      "name": "Bolso de Mano",
+      "price": 24.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-20T21:38:39.452Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T21:38:39.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673e5774af908bfe5ce66c7c"
+  },
+  "email": "usuario3@example.com",
+  "user": "Carla Soria",
+  "adress": "Calle 32 N°223",
+  "postal": 3134,
+  "phone": 231412421,
+  "location": "Santa Rosa, La Pampa",
+  "total": 133.96,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9246ddffb72e7b89390"
+      },
+      "img": "http://localhost:3000/imgs/130302.webp",
+      "name": "Camiseta Básica",
+      "price": 10.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9526ddffb72e7b89397"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Zapatillas Deportivas",
+      "price": 49.99
+    },
+    {
+      "product": {
+        "$oid": "66bba99f6ddffb72e7b893b5"
+      },
+      "img": "http://localhost:3000/imgs/130302.webp",
+      "name": "Camiseta Deportiva",
+      "price": 16.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9a36ddffb72e7b893b7"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Zapatos de Vestir",
+      "price": 55.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-20T21:41:08.915Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-20T21:41:08.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673f6ff331b0bf2cda7483af"
+  },
+  "email": "usuario12@example.com",
+  "user": "Roberto Guiterrez",
+  "adress": "Calle 19, N° 332",
+  "postal": 2312,
+  "phone": 24145123,
+  "location": "General Pico, ,La Pampa",
+  "total": 142.97,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9246ddffb72e7b89390"
+      },
+      "img": "http://localhost:3000/imgs/130302.webp",
+      "name": "Camiseta Básica",
+      "price": 10.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9926ddffb72e7b893af"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Botas de Montaña",
+      "price": 75.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9a36ddffb72e7b893b7"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Zapatos de Vestir",
+      "price": 55.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-21T17:37:55.796Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-21T17:37:55.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "673f785e31b0bf2cda7483f8"
+  },
+  "email": "usuario18@example.com",
+  "user": "Carmen Damian",
+  "adress": "Calle San Martin, N° 3232",
+  "postal": 3142,
+  "phone": 2954325123,
+  "location": "Santa Rosa, La Pampa",
+  "total": 94.97,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9a36ddffb72e7b893b7"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Zapatos de Vestir",
+      "price": 55.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9a96ddffb72e7b893b9"
+      },
+      "img": "http://localhost:3000/imgs/7695937.webp",
+      "name": "Corbata de Seda",
+      "price": 17.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9966ddffb72e7b893b1"
+      },
+      "img": "http://localhost:3000/imgs/130302.webp",
+      "name": "Falda Plisada",
+      "price": 20.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-21T18:13:50.060Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-21T18:13:50.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67575308403f6551ed584941"
+  },
+  "email": "usuario1@example.com",
+  "user": "Carlos Figueroa",
+  "adress": "Av. Pueyrredon",
+  "postal": 2344,
+  "phone": 31231413421,
+  "location": "Calle San Martin",
+  "total": 139.98,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba9526ddffb72e7b89397"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Zapatillas Deportivas",
+      "price": 49.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9866ddffb72e7b893ab"
+      },
+      "img": "http://localhost:3000/imgs/130302.webp",
+      "name": "Chaqueta de Cuero",
+      "price": 89.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-12-09T20:28:56.748Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-09T20:28:56.748Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "675755b3403f6551ed58496c"
+  },
+  "email": "usuario1@example.com",
+  "user": "Carlos Figueroa",
+  "adress": "Av. Pueyrredon",
+  "postal": 2341,
+  "phone": 231414223,
+  "location": "Buenos Aires",
+  "total": 101.97,
+  "cart": [
+    {
+      "product": {
+        "$oid": "66bba97f6ddffb72e7b893a9"
+      },
+      "img": "http://localhost:3000/imgs/6000212.webp",
+      "name": "Sandalias Planas",
+      "price": 22.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9676ddffb72e7b8939f"
+      },
+      "img": "http://localhost:3000/imgs/7695937.webp",
+      "name": "Reloj Digital",
+      "price": 59.99
+    },
+    {
+      "product": {
+        "$oid": "66bba9766ddffb72e7b893a5"
+      },
+      "img": "http://localhost:3000/imgs/130302.webp",
+      "name": "Pantalones Cortos",
+      "price": 18.99
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-12-09T20:40:19.357Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-09T20:40:19.357Z"
+  },
+  "__v": 0
+}]

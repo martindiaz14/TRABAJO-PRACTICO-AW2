@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "66bba783c7b104e80bbe13f9"
+  },
+  "name": "Clothes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba793c7b104e80bbe13fe"
+  },
+  "name": "Shoes",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bba7a9c7b104e80bbe1400"
+  },
+  "name": "Accessories",
+  "__v": 0
+}]
