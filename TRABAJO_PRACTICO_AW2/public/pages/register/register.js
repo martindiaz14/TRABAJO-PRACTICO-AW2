@@ -45,18 +45,17 @@ reg.addEventListener('click', async (e) => {
         }
         const res = await NewUser(NewUserObj)
         if (res.status) {
-            handleAlert("User created")
+            handleAlert("Usuario Creado")
         } else {
-            handleAlert("Error, user exits")
+            handleAlert("Error, El usuario ya existe")
         }
-        name = ""
-        lastname = ""
-        email = ""
-        pass = ""
+        document.getElementById('txtname').value = "";
+        document.getElementById('txtlastname').value = "";
+        document.getElementById('txtmail').value = "";
+        document.getElementById('txtpassword').value = "";
       
        } catch (error) {
-        handleAlert("Error, user exits")
-        console.loh(error)
+        console.log(error)
     };
 }
 

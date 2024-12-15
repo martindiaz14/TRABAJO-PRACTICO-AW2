@@ -54,8 +54,10 @@ function mostrarProductos() {
 
 
 }
+document.addEventListener("DOMContentLoaded", ()=>{
+    mostrarProductos();
+})
 
-mostrarProductos();
 
 
 

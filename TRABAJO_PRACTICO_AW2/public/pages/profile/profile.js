@@ -8,19 +8,13 @@ document.getElementById("btnTitulo").addEventListener('click', () => {
 })
 
 
-const logout = document.getElementById('logout').addEventListener('click',()=>{
+document.getElementById('logout').addEventListener('click',()=>{
   deleteSession(); 
   location.reload()
-  
+  window.location.href = ('../../index.html')
 })
 
-if (getSession('user')) { 
-  try {
-
-  } catch (error) {
-      console.log(error)
-  }
-} else {
+if (getSession('user') == null) {
   window.location.href = ('../../index.html')
 }
 
